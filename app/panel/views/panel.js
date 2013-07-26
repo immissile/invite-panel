@@ -68,6 +68,9 @@ define(function(require, exports, module){
     Panel.prototype.getData = function(callback){
       var self = this;
       $.get("/invite_panel.json", function(o){
+        if(typeof o == "string"){
+          o = JSON.parse(o);
+        }
         callback(self.parse(o));
       })
     }
