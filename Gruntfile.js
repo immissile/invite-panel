@@ -57,6 +57,7 @@ module.exports = function (grunt) {
             src: [
               'app/**/*.js', 
               '!app/panel/<%= pkg.version %>/tpl/*.js',
+              '!app/panel/<%= pkg.version %>/views/*.js',
               '!app/panel/<%= pkg.version %>/libs/*.js'
             ],
             dest: 'dist/',
