@@ -1,0 +1,22 @@
+{
+  "family": "Missile",
+  "version": "0.0.1",
+  "name": "invite-panel@zhihu.com",
+  "author": "Missile",
+  "spm": {
+    "alias": {
+      "jquery": "sea-modules/jquery/jquery/1.8.2/jquery",
+      "$": "sea-modules/jquery/jquery/1.8.2/jquery",
+      "mustache": "sea-modules/marketing/mustache/0.7.2/mustache"
+    }
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-cmd-transport": "~0.2.4",
+    "grunt-contrib-cssmin": "~0.6.1",
+    "grunt-contrib-coffee": "~0.7.0",
+    "grunt-contrib-uglify": "~0.2.0",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-cmd-concat": "~0.2.2"
+  }
+}

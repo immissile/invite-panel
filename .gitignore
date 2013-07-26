@@ -1,0 +1,14 @@
+.DS_Store
+*.sw[po]
+
+.idea
+
+*.lock
+*.bak
+
+node_modules
+
+.coverage
+htmlcov
+.build
+build

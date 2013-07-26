@@ -1,0 +1,52 @@
+body,div,h1,h2,h3,h4,h5,h6,p,blockquote,pre,dl,dt,dd,ol,ul,li,hr,fieldset,form,label,legend,th,td,article,aside,figure,footer,header,hgroup,menu,nav,section,summary,hgroup {
+	margin: 0;
+	padding: 0;
+	border: 0
+}
+
+h1,h2,h3,h4,h5,h6,small {
+	font-size: 1em
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary {
+	display: block
+}
+
+audio,canvas,video {
+	display: inline-block
+}
+
+audio:not([controls]) {
+	display: none;
+	height: 0
+}[hidden] {
+	display: none
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 
+    display: block;
+}
+
+a img {border:none;}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+table {border-collapse: collapse; border-spacing: 0;}
+q:before, q:after, blockquote:before, blockquote:after {content: "";}
+
+input, select, button, textarea{
+  outline:none;
+  resize: none;
+}
+
+dfn {
+	font-style: italic
+}
+
+input, textarea, select {
+  outline: none;
+}
